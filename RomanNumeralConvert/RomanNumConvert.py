@@ -2,15 +2,15 @@
 
 #Numbers only repeat <= 3 times
 #Only 4 and 9 based numbers are written with subtraction
-def roman_to_arabic(numeral):
-    dict={  "I":1,
+def roman_to_arabic_num(numeral):
+    dict = {"I":1,
             "V":5,
             "X":10,
             "L":50,
             "C":100,
             "D":500,
             "M":1000,
-    }
+            }
 
     #Check that numeral is a valid string
     if ((not isinstance(numeral,str)) or (len(numeral)==0)):
@@ -50,4 +50,4 @@ def roman_to_arabic(numeral):
 #X =Total acres
 #Y=Total labor
 
-def max_profit(X,Y,P1,P2,H1,H2):
+#def max_profit(X,Y,P1,P2,H1,H2):
